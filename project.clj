@@ -1,26 +1,3 @@
-# clojureslop
-
-The project uses [Midje](https://github.com/marick/Midje/).
-
-## How to run the tests
-
-`lein midje` will run all tests.
-
-`lein midje namespace.*` will run only tests beginning with "namespace.".
-
-`lein midje :autotest` will run all the tests indefinitely. It sets up a
-watcher on the code files. If they change, only the relevant tests will be
-run again.
-# clojureslop
-
-
-## Setup
-
-Still having problems understanding *project.clij* setup, as it doesn't
-default to what I want with `lein midje new <project>` 
-
-`cat project.clj`
-```bash
 (defproject clojure_slop "0.0.1-SNAPSHOT"
   :description "Cool new project to do things and stuff"
   :dependencies [[org.clojure/clojure "1.9.0"]
@@ -38,8 +15,5 @@ default to what I want with `lein midje new <project>`
              :midje {}})
              ;; Note that Midje itself is in the `dev` profile to support
              ;; running autotest in the repl.
-```
 
-## Additional Documentation
-
-[Confluence Docs](https://confluence.aipiggybot.io/display/CLOJ/Clojure+Documentation)
+  
