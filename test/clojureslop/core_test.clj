@@ -11,6 +11,10 @@
        )
 
 
+
+
+
+
 (facts "myFunc Test"
        (fact "test"
              (myFun 0 0 0) => (+ 0 3) )
