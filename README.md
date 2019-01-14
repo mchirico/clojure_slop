@@ -40,6 +40,12 @@ default to what I want with `lein midje new <project>`
              ;; running autotest in the repl.
 ```
 
+
+
+
+
 ## Additional Documentation
 
 [Confluence Docs](https://confluence.aipiggybot.io/display/CLOJ/Clojure+Documentation)
+
+[cljfmt](https://github.com/weavejester/cljfmt)

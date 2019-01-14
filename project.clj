@@ -8,11 +8,19 @@
                  [org.clojure/math.combinatorics "0.1.4"]
                  [org.clojure/tools.reader "1.3.2"]]
   :plugins [[lein-cljsbuild "1.1.7"]
-            [lein-figwheel "0.5.15"]]
+            [lein-figwheel "0.5.15"]
+            [lein-cljfmt "0.6.4"]
+            ]
+
   :profiles {:dev {:dependencies [[midje "1.9.5"]]}
              ;; You can add dependencies that apply to `lein midje` below.
              ;; An example would be changing the logging destination for test runs.
-             :midje {}})
+             :midje {}}
+
+  :main clojureslop.core
+  :aot [clojureslop.core]
+
+  )
              ;; Note that Midje itself is in the `dev` profile to support
              ;; running autotest in the repl.
 
